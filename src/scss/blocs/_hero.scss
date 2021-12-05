@@ -1,0 +1,63 @@
+.hero {
+
+		min-height: 100vh;
+	
+
+	&__inner {
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center !important;
+	
+		flex-grow: 1;
+		height: 100%;
+		flex-direction: column;
+		justify-content: space-between;
+		background-image: url("../images/hero_bg2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		font-weight: 500;
+	}
+	&__title {
+		font-size: 17px;
+		margin-bottom: 10px;
+	}
+	&__subtitle {
+		font-size: 15px;
+		color: #b2a26f;
+		text-decoration: underline;
+	}
+	&__description {
+		padding: 65px 10% 50px 10%;
+		text-align: center;
+		background-color: #fff;
+		color: #263427;
+		position: relative;
+		overflow: hidden;
+		&-text {
+			font-family: "Roboto", sans-serif;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 28px;
+		}
+		&-span{
+			display: block;
+			position: absolute;
+			top: 0% !important;
+			left: 0;
+			width: 500px;
+			
+			line-height: 36px;
+			text-align: center;
+			transform: rotate(-30deg) translate(-40%,-263%);
+			background-color: #fc0d37;
+			box-shadow: 0 3px 0 rgba(#000,.3),0 6px 0 rgba(#000,.2),0 9px 0 rgba(#000,.1);
+			position: relative;
+			color: #fff;
+			text-transform: capitalize;
+			font-family: 'Roboto', sans-serif;
+			font-size: 18px;
+		}
+	}
+}

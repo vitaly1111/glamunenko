@@ -1,0 +1,47 @@
+@import 'fonts';
+@import 'vars';
+@import 'global';
+@import '../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
+@import 'blocs/header';
+@import 'blocs/hero';
+@import 'blocs/how-to';
+@import 'blocs/footer';
+
+.section{
+	&__title{
+		font-family: 'Marywather' serif;
+		font-size: 30px;
+		font-weight: 400;
+		margin: 0 0 50px 0;
+		text-transform: uppercase;
+	}
+}
+.article{
+	background-color: #fff;
+	&__container{
+		max-width: 640px;
+		margin: 0 auto;
+	}
+}
+
+
+
+.arrow-top{
+
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+	transform: rotate(-90deg);
+}
+
+.arrow-top path
+ {
+    fill: #FFF;
+    stroke-width: 1;
+    stroke: #fff;    
+    transition: fill 0.5s ease-out;
+}
+
+@import '../blocks/popup/popup';
+
+@import 'media';

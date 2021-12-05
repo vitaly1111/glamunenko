@@ -1,0 +1,24 @@
+.footer {
+	color: #fff;
+	padding: 30px 0;
+	
+	line-height: 24px !important;
+	font-weight: 700 !important;
+	&__button {
+		display: block;
+		text-align: center;
+		padding: 12px 14px;
+		margin: 0 auto 40px auto !important;
+		text-transform: uppercase;
+		border: 2px solid #fff;
+		max-width: 120px;
+		font-size: 16px !important;
+		font-weight: 400 !important;
+	}
+	&__nav-item{
+		margin-bottom: 10px;
+	}
+	&__contacts{
+		margin-bottom: 10px;
+	}
+}

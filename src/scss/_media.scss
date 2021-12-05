@@ -1,0 +1,169 @@
+@media (max-width: 1440px) {
+	.hero__description {
+		padding: 25px 10% 40px;
+		span {
+			transform: rotate(-30deg) translate(-55%, -50%);
+		}
+	}
+	.section__title {
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 1366px) {
+	.section__title {
+		font-size: 24px;
+		margin-bottom: 24px;
+	}
+	.hero__description span {
+		transform: rotate(-30deg) translate(-50%, -300%);
+	}
+}
+@media (max-width: 1200px) {
+	.header__menu-nav {
+		margin-bottom: 20px;
+	}
+
+	.hero__logo {
+		max-width: 150px;
+	}
+	.hero__description-text {
+		font-size: 12px;
+	}
+	.header__contacts-item + .header__contacts-item {
+		margin-left: 20px;
+	}
+	.services__card {
+		margin: 0 20px;
+		border: 3px solid #e8e8e8;
+		padding: 30px 15px;
+	}
+}
+@media (max-width: 992px) {
+	.header__menu-nav {
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		transform: translate(-50%, -100%);
+		width: 100%;
+		background-color: rgba(#000, 0.5);
+		padding: 20px 0;
+	}
+	.header__menu-list {
+		flex-direction: column;
+	}
+	.header__menu-item {
+		margin: 10px 0;
+	}
+	.header__menu-item + .header__menu-item {
+		margin-left: 0;
+	}
+	.header__mobile {
+		display: flex;
+	}
+	.header__social-item + .header__social-item {
+		margin-left: 20px;
+	}
+	.header__menu {
+		padding-top: 0;
+		&-active {
+			background-color: rgba(#000, 0.5);
+			.header__menu-nav {
+				transform: translate(-50%, calc(100% + 20px));
+			}
+		}
+	}
+	.services__cards {
+		display: block;
+	}
+	.services__card {
+		display: block;
+		padding: 35px 35px;
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+	}
+	.booking__table-button {
+		max-width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.hero__description span {
+		transform: rotate(-30deg) translate(-45%, -300%);
+	}
+}
+
+@media (max-width: 768px) {
+	.hero__description-container {
+		max-width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.how-to-article {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+@media (max-width: 576px) {
+	.header__contacts-item + .header__contacts-item {
+		margin-left: 0px;
+	}
+
+	.header__contacts-item {
+		font-size: 12px;
+	}
+	.header__social-item + .header__social-item {
+		margin-left: 15px;
+	}
+
+	.header__mobile {
+		width: 30px;
+		height: 30px;
+	}
+	.hero__logo {
+		max-width: 110px;
+	}
+	.section__title {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.hero__subtitle {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.header__menu {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.hero__info {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.booking__table-header {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.footer {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.booking__table-body {
+		overflow-x: auto;
+	}
+	.booking__table-button {
+		min-width: 140px;
+	}
+	.how-to-look {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 420px) {
+	.hero__description span {
+		transform: rotate(-30deg) translate(-40%, -350%);
+	}
+}
